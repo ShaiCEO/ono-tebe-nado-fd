@@ -215,7 +215,36 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 25px;
-  padding-left: 25px;
+  padding-left: 10px;
   font-size: 20px;
 }
-
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 180px 50px 90px;
+  color: #000;
+  font-size: 18px;
+}
+.footer-menu {
+  text-align: center;
+}
+.footer-social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  list-style: none;
+}
+.footer-social-icon {
+  max-height: 48px;
+  height: 100%;
+}
+.navigation-footer {
+  list-style: none;
+  flex-direction: column;
+}
+.underline {
+  text-underline-offset: 5px;
+}
+.underline-main {
+  text-decoration: none;
+}
